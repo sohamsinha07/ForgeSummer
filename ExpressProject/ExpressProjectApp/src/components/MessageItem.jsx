@@ -8,7 +8,7 @@ function MessageItem({ message }) {
   };
 
   return (
-    <div style={{ border: '1px solid gray', margin: '8px', padding: '8px' }}>
+    <div style={{ border: '1px solid gray', margin: '8px', padding: '8px', color: white }}>
       <strong>{message.username}</strong>: {message.message}
       <button onClick={handleDelete} style={{ marginLeft: '10px' }}>Delete</button>
     </div>
